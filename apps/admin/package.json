@@ -1,10 +1,10 @@
 {
-  "name": "@practice/web",
+  "name": "@practice/admin",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt generate",
-    "dev": "PORT=3001 nuxt dev",
+    "dev": "PORT=3000 nuxt dev",
     "prepare": "nuxt prepare",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
@@ -12,5 +12,6 @@
   "devDependencies": {
     "nuxt": "^3.2.0",
     "@practice/ui":"*"
+
   }
 }

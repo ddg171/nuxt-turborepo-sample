@@ -9,9 +9,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
+  "dependencies": {
+    "@practice/util": "*"
+  },
   "devDependencies": {
     "nuxt": "^3.2.0",
-    "@practice/ui":"*"
+    "@practice/ui":"*",
+    "@practice/util": "*"
+
 
   }
 }

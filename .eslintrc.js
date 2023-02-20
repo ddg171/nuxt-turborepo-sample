@@ -1,10 +1,21 @@
 module.exports = {
-  root: true,
-  // This tells ESLint to load the config from the package `eslint-config-custom`
-  extends: ["custom"],
-  settings: {
-    next: {
-      rootDir: ["apps/*/"],
+    "env": {
+        "browser": true,
+        "es2021": true
     },
-  },
+    "extends": [
+        "plugin:vue/essential",
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "parser": "@typescript-eslint/parser",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue",
+        "@typescript-eslint"
+    ],
+    "rules": {
+    }
 };
